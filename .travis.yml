@@ -1,0 +1,11 @@
+addons:
+  coverity_scan:
+    project:
+      name: "hello_world_c"
+      description: "Test project"
+    notification_email: testomano@niepodam.pl
+    build_command_prepend: "make clean"
+    build_command: "make"
+    branch_pattern: coverity_scan
+# token:
+#   secure: "your_project_token"
