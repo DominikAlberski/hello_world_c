@@ -1,7 +1,7 @@
 addons:
   coverity_scan:
     project:
-      name: "hello_world_c"
+      name: "DominikAlberski/hello_world_c"
       description: "Test project"
     notification_email: testomano@niepodam.pl
     build_command_prepend: "make clean"
